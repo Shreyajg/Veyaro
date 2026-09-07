@@ -35,21 +35,21 @@ Veyaro/
 ### How to run
 
 #### 1.Clone the repo:
--git clone <repository-url>
--cd Veyaro
+- git clone <repository-url>
+- cd Veyaro
 
 #### 2.Start the backend:
--cd Backend
--npm install
+- cd Backend
+- npm install
 
 #### 3.create your .env:
--PORT=8000
--MONGO_URI=<your-mongodb-connection-string>
--JWT_SECRET=<your-jwt-secret>
+- PORT=8000
+- MONGO_URI=<your-mongodb-connection-string>
+- JWT_SECRET=<your-jwt-secret>
 
 #### 4.start the backend:
 npm run dev
 
 #### 5.start the frontend:
--cd Frontend
--python -m http.server 5500
+- cd Frontend
+- python -m http.server 5500
