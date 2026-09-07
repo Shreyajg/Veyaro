@@ -1,0 +1,7 @@
+.modal-backdrop { position:fixed; inset:0; z-index:100; background:rgba(30,38,38,.24); backdrop-filter:blur(7px); display:grid; place-items:center; padding:20px; }
+.modal { width:min(560px,100%); background:var(--color-surface); border:1px solid var(--color-border); border-radius:28px 20px 34px 18px; box-shadow:0 25px 80px rgba(30,38,38,.2); padding:24px; }
+.modal-top { display:flex; justify-content:space-between; gap:16px; }
+.modal-close { border:0; background:var(--color-surface-2); width:34px; height:34px; border-radius:50%; }
+.modal h2 { font-size:24px; letter-spacing:-.035em; }
+.modal-meta { margin-top:7px; }
+.modal-body { margin-top:20px; color:var(--color-text-secondary); }

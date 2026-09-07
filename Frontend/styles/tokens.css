@@ -1,0 +1,62 @@
+/* Ansha — design tokens */
+:root {
+  --color-bg: #f6f3ee;
+  --color-surface: #fffdf9;
+  --color-surface-2: #f1eee8;
+  --color-text-primary: #243336;
+  --color-text-secondary: #6f7b7c;
+  --color-border: rgba(36,51,54,.11);
+
+  --color-coral: #e7a18e;
+  --color-coral-soft: #f7e4dd;
+  --color-sky: #9fc7ca;
+  --color-sky-soft: #e2f0ef;
+  --color-lilac: #b8add8;
+  --color-lilac-soft: #eeeaf7;
+  --color-sage: #abc4ae;
+  --color-sage-soft: #e7f0e6;
+  --color-warning: #c99554;
+  --color-warning-soft: #f5eadb;
+  --color-success: #4f8a69;
+  --color-success-soft: #e5f1e9;
+
+  --shadow-soft: 0 14px 40px rgba(47,58,57,.07);
+  --shadow-card: 0 3px 14px rgba(47,58,57,.05);
+  --shadow-card-hover: 0 14px 30px rgba(47,58,57,.10);
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 34px;
+  --radius-pill: 999px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+
+  --font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --text-page-title: clamp(30px, 4vw, 48px);
+  --text-section-title: 19px;
+  --text-body: 15px;
+  --text-body-lg: 17px;
+  --text-small: 13px;
+  --text-micro: 11px;
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  --transition-fast: 150ms ease;
+  --transition-base: 220ms ease;
+
+  --sidebar-width: 232px;
+  --sidebar-gap: 18px;
+  --content-max-width: 1420px;
+}
